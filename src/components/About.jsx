@@ -22,6 +22,7 @@ const About = () => {
             <div className = "col-sm-12 col-md-6 col-lg6 text-center">
               <img src={photo} class="img-fluid" alt="Responsive image" css = {css`
                 height: 350px;
+                border-radius: 10%;
               `}/>
             </div>
           </div>

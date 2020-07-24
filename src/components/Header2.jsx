@@ -6,7 +6,6 @@ import styled from '@emotion/styled'
 import Barra from '../assets/img/bar.jpg'
 
 
-
 const Header2 = () => {
   //Constante de estilo para etiqueta "a"
   const Anchor = styled.a `
