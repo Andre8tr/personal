@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
 import styled from '@emotion/styled'
@@ -26,7 +26,6 @@ const Header2 = () => {
       display: block;
     `
 
-  const [size, setSize] = useState(0)
   return(
     <header>
       <Large src ={Barra} alt="Hola" className="fluid"/>
@@ -34,7 +33,7 @@ const Header2 = () => {
         <div className = "row">
           <div className = "col-sm-12 col-md-4 col-lg-4 mt-5 text-center">
             <hr />
-             <Anchor as = "a" href="google.com" className = "mx-3 anchor"> About </Anchor> <Anchor as = "a" href="google.com" className = "mx-3 anchor"> Tecnologías </Anchor> <Anchor href="" className = "mx-3"> Contacto </Anchor>
+             <Anchor as = "a" href="#" className = "mx-3 anchor"> About </Anchor> <Anchor as = "a" href="#tech" className = "mx-3 anchor"> Tecnologías </Anchor> <Anchor href="#port" className = "mx-3"> Portafolio </Anchor>
             <hr />
           </div>
           <div className = "col-sm-12 col-md-4 col-lg-4">
@@ -44,7 +43,7 @@ const Header2 = () => {
           </div>
           <div className = "col-sm-12 col-md-4 col-lg-4 mt-5 text-center">
             <hr />
-              <Anchor as = "a" href="google.com" className = "mx-3"> Portafolio </Anchor> <Anchor href="" className = "mx-3"> Blog </Anchor>
+              <Anchor as = "a" href="#footer" className = "mx-3"> Contacto </Anchor> <Anchor href="" className = "mx-3"> Blog </Anchor>
             <hr />
           </div>
         </div>

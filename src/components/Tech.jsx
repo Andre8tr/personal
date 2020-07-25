@@ -23,7 +23,7 @@ const Tech = () => {
   `
 
   return(
-    <article>
+    <article id="tech">
       <div className ="container text-center">
         <h2> Tecnologías que utilizo </h2>
         <div className = "row text-justify">
