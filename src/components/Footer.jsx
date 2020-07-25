@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
 import styled from '@emotion/styled'
@@ -19,15 +19,15 @@ const Footer = () => {
               <h3 className = "mt-5"> Contaca directamente conmigo </h3>
               <form>
                 <div className="form-group">
-                  <label for="exampleInputPassword1">Nombre: </label>
+                  <label htmlFor="exampleInputPassword1">Nombre: </label>
                   <input type="text" className="form-control" id="name" placeholder="Ingresa tu nombre " />
                 </div>
                 <div className="form-group">
-                  <label for="exampleInputEmail1">Correo: </label>
+                  <label htmlFor="exampleInputEmail1">Correo: </label>
                   <input type="email" className="form-control" id="mail" aria-describedby="emailHelp" placeholder="Ingresa tu email" />
                 </div>
                 <div className="form-group">
-                  <label for="exampleFormControlTextarea1">Ingresa tu mensaje</label>
+                  <label htmlFor="exampleFormControlTextarea1">Ingresa tu mensaje</label>
                   <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary mb-5">Enviar</button>

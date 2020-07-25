@@ -2,7 +2,6 @@ import React from 'react'
 import photo from '../assets/img/photo.jpg'
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
-import styled from '@emotion/styled'
 
 
 const About = () => {
@@ -22,7 +21,7 @@ const About = () => {
               <p className = "lead"> Tambíen brindo tutorías de programación y matematicas para estudiantes.</p>
             </div>
             <div className = "col-sm-12 col-md-6 col-lg6 text-center">
-              <img src={photo} class="img-fluid" alt="Responsive image" css = {css`
+              <img src={photo} className="img-fluid" alt="Responsive" css = {css`
                 height: 350px;
                 border-radius: 10%;
               `}/>
