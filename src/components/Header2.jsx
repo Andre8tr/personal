@@ -5,6 +5,9 @@ import styled from '@emotion/styled'
 //Imagenes
 import Barra from '../assets/img/bar.jpg'
 
+import Scrollspy from 'react-scrollspy'
+import { Link } from 'react-scroll'
+
 
 const Header2 = () => {
   //Constante de estilo para etiqueta "a"
@@ -33,7 +36,9 @@ const Header2 = () => {
         <div className = "row">
           <div className = "col-sm-12 col-md-4 col-lg-4 mt-5 text-center">
             <hr />
-             <Anchor as = "a" href="#" className = "mx-3 anchor"> About </Anchor> <Anchor as = "a" href="#tech" className = "mx-3 anchor"> Tecnologías </Anchor> <Anchor href="#port" className = "mx-3"> Portafolio </Anchor>
+             <Link to="#" smooth = {true} duration = {200}> <Anchor as = "a" href="#" className = "mx-3"> About </Anchor>  </Link>
+             <Link to="tech" smooth = {true} duration = {200}> <Anchor as = "a" href="#tech" className = "mx-3 anchor"> Tecnologías </Anchor></Link>
+             <Link to="port" smooth = {true} duration = {200}> <Anchor href="#port" className = "mx-3"> Portafolio </Anchor></Link>
             <hr />
           </div>
           <div className = "col-sm-12 col-md-4 col-lg-4">
@@ -43,7 +48,8 @@ const Header2 = () => {
           </div>
           <div className = "col-sm-12 col-md-4 col-lg-4 mt-5 text-center">
             <hr />
-              <Anchor as = "a" href="#footer" className = "mx-3"> Contacto </Anchor> <Anchor href="" className = "mx-3"> Blog </Anchor>
+              <Link to="footer" smooth = {true} duration = {200}> <Anchor as = "a" href="#footer" className = "mx-3"> Contacto </Anchor> </Link>
+              <Link to="" smooth = {true} duration = {200}> <Anchor href="" className = "mx-3"> Blog </Anchor> </Link>
             <hr />
           </div>
         </div>

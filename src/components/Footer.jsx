@@ -2,6 +2,8 @@ import React from 'react'
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
 import styled from '@emotion/styled'
+import Insta from '../assets/img/social/insta.png'
+import { FaLinkedin, FaGithub, FaInstagram} from 'react-icons/fa';
 
 const Footer = () => {
   return(
@@ -14,6 +16,27 @@ const Footer = () => {
           <div className = "row mt-5">
             <div className = "col-sm-12 col-md-6 col-lg-6">
               <h3 className = "mt-5"> Mis redes sociales </h3>
+              <h2> <FaGithub css ={ css `
+                transition: all 0.3s ease;
+                &:hover{
+                  webkit-transform: scale(1.2);
+                  -ms-transform: scale(1.2);
+                  transform: scale(1.2);
+                  transition:all 0.3s ease;
+                }
+              `} />
+
+              <FaInstagram className = "mx-5"  css = {css`
+                &:hover{
+                  color: #cd486b;
+                }
+              `} />
+
+              <FaLinkedin  css = {css`
+                &:hover{
+                  color: #0e76a8;
+                }
+              `}/> </h2>
             </div>
             <div className = "col-sm-12 col-md-6 col-lg-6">
               <h3 className = "mt-5"> Contaca directamente conmigo </h3>
@@ -34,11 +57,17 @@ const Footer = () => {
               </form>
             </div>
           </div>
+
           <div className = "row fluid">
+          <div className = "row">
+          </div>
             <div className = "col-sm-12 col-md-12 col-lg-12">
               <p> Coyright © Andre Tirado 2020 </p>
             </div>
           </div>
+
+
+
         </div>
 
       </div>
