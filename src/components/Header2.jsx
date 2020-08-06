@@ -1,11 +1,9 @@
-import React from 'react'
+//import React from 'react'
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
 import styled from '@emotion/styled'
 //Imagenes
 import Barra from '../assets/img/bar.jpg'
-
-import Scrollspy from 'react-scrollspy'
 import { Link } from 'react-scroll'
 
 

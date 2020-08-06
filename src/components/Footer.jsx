@@ -1,11 +1,14 @@
-import React from 'react'
+//import React from 'react'
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
 import styled from '@emotion/styled'
-import Insta from '../assets/img/social/insta.png'
 import { FaLinkedin, FaGithub, FaInstagram} from 'react-icons/fa';
 
 const Footer = () => {
+  const Anchor = styled.a`
+    text-decoration: none !important;
+    color: inhert;
+  `
   return(
     <footer id="footer">
       <div className = "fluid mt-5" css = {css`
@@ -16,27 +19,38 @@ const Footer = () => {
           <div className = "row mt-5">
             <div className = "col-sm-12 col-md-6 col-lg-6">
               <h3 className = "mt-5"> Mis redes sociales </h3>
-              <h2> <FaGithub css ={ css `
-                transition: all 0.3s ease;
-                &:hover{
-                  webkit-transform: scale(1.2);
-                  -ms-transform: scale(1.2);
-                  transform: scale(1.2);
-                  transition:all 0.3s ease;
-                }
-              `} />
+              <h2> <Anchor href ="https://github.com/Andre8tr" target="_blank">
+                   <FaGithub css ={ css `
+                      transition: all 0.3s ease;
+                      text-decoration: none;
+                      color: white;
+                      &:hover{
+                        webkit-transform: scale(1.2);
+                        -ms-transform: scale(1.2);
+                        transform: scale(1.2);
+                        transition:all 0.3s ease;
+                      }
+                    `} />
+                  </ Anchor>
 
-              <FaInstagram className = "mx-5"  css = {css`
-                &:hover{
-                  color: #cd486b;
-                }
-              `} />
+              <Anchor href = "https://www.instagram.com/andre8t" target="_blank">
+                <FaInstagram className = "mx-5"  css = {css`
+                  color: white;
+                  &:hover{
+                    color: #cd486b;
+                  }
+                `} />
+              </Anchor>
 
-              <FaLinkedin  css = {css`
-                &:hover{
-                  color: #0e76a8;
-                }
-              `}/> </h2>
+              <Anchor href = 'https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile' target="_blank">
+                <FaLinkedin href="google.com"  css = {css`
+                  color: white;
+                  &:hover{
+                    color: #0e76a8;
+                  }
+                `}/>
+              </Anchor>
+             </h2>
             </div>
             <div className = "col-sm-12 col-md-6 col-lg-6">
               <h3 className = "mt-5"> Contaca directamente conmigo </h3>

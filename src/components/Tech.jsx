@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 import IReact from '../assets/img/tech/react.png'
 import INode from '../assets/img/tech/node.png'
 import IFirebase from '../assets/img/tech/-firebase.jpg'
@@ -8,7 +8,7 @@ import IMysql from '../assets/img/tech/my.png'
 import ICs from '../assets/img/tech/c.png'
 import Express from '../assets/img/tech/express.png'
 /** @jsx jsx */
-import { css, jsx } from '@emotion/core'
+import { jsx } from '@emotion/core'
 import styled from '@emotion/styled'
 
 

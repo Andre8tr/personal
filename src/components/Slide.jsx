@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 import fondo from '../assets/img/ff.jpg'
 import fondo2 from '../assets/img/f2.jpg'
 /** @jsx jsx */

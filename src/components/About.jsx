@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 import photo from '../assets/img/photo.jpg'
 /** @jsx jsx */
 import { css, jsx } from '@emotion/core'
@@ -16,8 +16,9 @@ const About = () => {
           <div className = "row">
             <div className = "col-sm-12 col-md-6 col-lg-6">
               <h1 className="display-4">Acerca de mi</h1>
-              <p className="lead">¡Hola! Me llamo Andre Tirado y soy ingeniero en sistemas, me especializo en desarrollo web con las ultimas tecnologías en el mercado
+              <p className="lead text-justify">¡Hola! Me llamo Andre Tirado y soy ingeniero en sistemas, me especializo en desarrollo web haciendo páginas web y sistemas en la nube con las ultimas tecnologías en el mercado
               como React Js, Node Js, Bootstrap, Angular etc...</p> <br />
+              <p className = "lead">Contactame para poder hacer tu idea una realidad</p><br />
               <p className = "lead"> Tambíen brindo tutorías de programación y matematicas para estudiantes.</p>
             </div>
             <div className = "col-sm-12 col-md-6 col-lg6 text-center">
