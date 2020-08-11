@@ -30,7 +30,7 @@ const Portafolio = () => {
             </div>
             <div className = "col-sm-6 col-md-4 col-lg-4 my-5">
               <Photo src = {Pc} alt ="" className = "img-fluid"/>
-              <small>Web app, para poder llevar el control de inventario de tus computadoras <a target = "_blank" href="https://github.com/Andre8tr/inventariopc">Código en Github</a> </small>
+              <small>Web app, para poder llevar el control de inventario de tus computadoras <a target = "_blank" rel="noopener noreferrer" href="https://github.com/Andre8tr/inventariopc">Código en Github</a> </small>
             </div>
           </div>
         </div>
