@@ -7,10 +7,6 @@ import { css, jsx } from '@emotion/core'
 const About = () => {
   return(
     <article>
-    {/*   <div className = "container mt-5">
-        <h4 className = "text-center"> Ingeniero en sistemas</h4>
-        <h5 className = "text-center">Contacta conmigo para poder convertir en realidad tus ideas</h5>
-      </div>*/}
       <div className="jumbotron jumbotron-fluid mt-3">
         <div className="container">
           <div className = "row">
