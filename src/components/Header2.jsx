@@ -6,7 +6,6 @@ import styled from '@emotion/styled'
 import Barra from '../assets/img/bar.jpg'
 import { Link } from 'react-scroll'
 
-
 const Header2 = () => {
   //Constante de estilo para etiqueta "a"
   const Anchor = styled.a `
@@ -28,7 +27,7 @@ const Header2 = () => {
     `
 
   return(
-    <header>
+    <header id="header">
       <Large src ={Barra} alt="Hola" className="fluid"/>
       <div className="container">
         <div className = "row">
