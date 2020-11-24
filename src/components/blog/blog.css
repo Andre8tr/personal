@@ -1,0 +1,65 @@
+.box-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 400px;
+}
+
+.login{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.info {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user {
+  display: block;
+  width: 100%;
+  border: 1px solid rgb(179, 179, 179);
+}
+.user:focus{
+  border: 1px solid pink;
+}
+
+.password{
+  display: block;
+  width: 100%;
+}
+
+.btn-ingresar{
+  margin: 10px 15px;
+  background-color: rgb(255, 4, 144);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  border: none;
+}
+.btn-registrarse{
+  margin: 1px 15px;
+}
+
+
+input {
+  display: block !important;
+}
