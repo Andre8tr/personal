@@ -10,6 +10,8 @@ import Express from '../assets/img/tech/express.png'
 /** @jsx jsx */
 import { jsx } from '@emotion/core'
 import styled from '@emotion/styled'
+//Importacion de hoja main css
+import './main.css'
 
 
 
